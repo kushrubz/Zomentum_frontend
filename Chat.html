@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href = "https://fonts.googleapis.com/icon?family=Material+Icons" rel = "stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <title>Chat App</title>
+	<link rel="stylesheet" type="text/css" media="screen" href="Chat.css" >
+	<script defer src="chat.js"></script>
+</head>
+<body>
+    <div class="container">
+    <div class="row no-gutters">
+      <div class="col-md-4 border-right">
+        <div class="settings-tray">
+          <img class="profile-image" src="./Profile pics/kush.jpeg" alt="Kush">
+          <span class="settings-tray--right" >
+            <i class="material-icons">menu</i>
+            <i class="material-icons">message</i>
+            <i class="material-icons">cached</i>
+          </span>
+        </div>
+        <div class="search-box">
+          <div class="input-wrapper">
+            <i class="material-icons">search</i>
+            <input placeholder="Search here" type="text">
+          </div>
+        </div>
+        <div class="chat-list">
+            <div class="friend-drawer friend-drawer--onhover">
+              <img class="profile-image" src="./Profile pics/vidushi.jpeg" alt="vidushi">
+              <div class="text">
+                <h6>Vidushi <3</h6>
+                <p class="text-muted">...what if ..we like went out or something</p>
+              </div>
+              <span class="time text-muted small">13:21</span>
+            </div>
+            <hr>
+            <div class="friend-drawer friend-drawer--onhover">
+              <img class="profile-image" src="./Profile pics/sanskrati.jpeg" alt="sanskrati">
+              <div class="text">
+                <h6>Ex</h6>
+                <p class="text-muted">DONT TEXT ME EVER AGAIN</p>
+              </div>
+              <span class="time text-muted small">12:02</span>
+            </div>
+            <hr>
+            <div class="friend-drawer friend-drawer--onhover ">
+              <img class="profile-image" src="./Profile pics/akash.jpeg" alt="akash">
+              <div class="text">
+                <h6>Akash E4</h6>
+                <p class="text-muted">project complete ho gya?</p>
+              </div>
+              <span class="time text-muted small">10:00</span>
+            </div>
+            <hr>
+            <div class="friend-drawer friend-drawer--onhover">
+              <img class="profile-image" src="./Profile pics/anubhav.jpeg" alt="anubhav">
+              <div class="text">
+                <h6>Anubhav bhai</h6>
+                <p class="text-muted">zomentum me place ho jayega ya nhi?</p>
+              </div>
+              <span class="time text-muted small">06:34</span>
+            </div>
+            <hr>
+            <div class="friend-drawer friend-drawer--onhover">
+              <img class="profile-image" src="./Profile pics/arushi.jpeg" alt="">
+              <div class="text">
+                <h6>Arushi</h6>
+                <p class="text-muted">sir free ho aap?</p>
+              </div>
+              <span class="time text-muted small">yesterday</span>
+            </div>
+            <hr>
+            <div class="friend-drawer friend-drawer--onhover">
+              <img class="profile-image" src="./Profile pics/jhanvi.jpeg" alt="jhanvi">
+              <div class="text">
+                <h6>Jhanvi <3</h6>
+                <p class="text-muted">yrr call back kr</p>
+              </div>
+              <span class="time text-muted small">yesterday</span>
+            </div>
+          </div>
+      </div>
+      <div class="col-md-8">
+        <div class="settings-tray">
+            <div class="friend-drawer no-gutters friend-drawer--grey">
+            <img class="profile-image" src="./Profile pics/sanskrati.jpeg" alt="sanskrati">
+            <div class="text">
+              <h6>Ex</h6>
+              <p class="text-muted">Can we talk in stardust and dream of night sky...</p>
+            </div>
+            <span class="float-right">
+              <i class="material-icons">menu</i>
+            </span>
+          </div>
+        </div>
+
+        <div class="chat-panel">
+            <div class="row no-gutters">
+            <div class="col-md-3">
+                  <div class="chat-bubble chat-bubble--left">
+                  <p>goodnight</p>
+                  </div>
+                </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-md-3 offset-md-9">
+                  <div class="chat-bubble chat-bubble--right">
+                  <p>Suno<p>
+                  </div>
+                </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-md-3">
+                  <div class="chat-bubble chat-bubble--left">
+                  <p>dont text me nn pls</p>
+                  </div>
+                </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-md-3 offset-md-9">
+                  <div class="chat-bubble chat-bubble--right">
+                  <p>areee</p>
+                  </div>
+                </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-md-3 offset-md-9">
+                  <div class="chat-bubble chat-bubble--right">
+                  <p>listen</p>
+                  </div>
+                </div>
+            </div>
+             
+            <div class="row no-gutters">
+                <div class="col-md-3">
+                  <div class="chat-bubble chat-bubble--left">
+                  <p>i'll block u</p>
+                  </div>
+                </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-md-3">
+                  <div class="chat-bubble chat-bubble--left">
+                  <p>DONT TEXT ME EVER AGAIN</p>
+                  </div>
+                </div>
+            </div>
+             
+
+
+             
+                
+        </div>
+
+
+        <div class="row">
+            <div class="col-12">
+                <div class="chat-box-tray">
+                    <input type="text" placeholder="Type your message here...">
+                    <i class="material-icons">send</i>
+                    <i class="material-icons">mic</i>
+                </div>
+            </div>
+        </div>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+     
+</body>
+</html>
